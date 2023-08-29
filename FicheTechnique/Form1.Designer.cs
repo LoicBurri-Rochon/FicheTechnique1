@@ -44,6 +44,7 @@
             this.lbRes = new System.Windows.Forms.Label();
             this.CURRES = new System.Windows.Forms.Label();
             this.lbMemorySpeed = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbCPU
@@ -196,11 +197,22 @@
             this.lbMemorySpeed.TabIndex = 15;
             this.lbMemorySpeed.Text = "Memory speed";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(342, 456);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 572);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbMemorySpeed);
             this.Controls.Add(this.CURRES);
             this.Controls.Add(this.lbRes);
@@ -244,6 +256,7 @@
         private System.Windows.Forms.Label lbRes;
         private System.Windows.Forms.Label CURRES;
         private System.Windows.Forms.Label lbMemorySpeed;
+        private System.Windows.Forms.Button button1;
     }
 }
 
