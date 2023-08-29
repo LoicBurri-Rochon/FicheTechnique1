@@ -16,8 +16,9 @@ namespace FicheTechnique
     public partial class Form1 : Form
     {
         public static ulong Ram;
-       
-       
+
+        Form2 form2 = new Form2();
+        
         public Form1()
         {
             InitializeComponent();
@@ -101,6 +102,11 @@ namespace FicheTechnique
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("Are you sure", "Exiting software", MessageBoxButtons.OKCancel);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            form2.Show();
         }
     }
 }
