@@ -1,4 +1,3 @@
 # FicheTechnique1
-Small program which prompt some informations about your computer's hardware  
-
-BTW ONLY WORKS ON WINDOWS
+small program that gives informations about your windows computer hardware.
+Also features different tests to make the best diagnosis of a windows computer with only a single program
