@@ -33,6 +33,7 @@
             this.timerBattery = new System.Windows.Forms.Timer(this.components);
             this.btnStart = new System.Windows.Forms.Button();
             this.lbInitialCharge = new System.Windows.Forms.Label();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbTitle
@@ -53,9 +54,9 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(185, 388);
+            this.btnStart.Location = new System.Drawing.Point(229, 350);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(158, 61);
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -66,15 +67,27 @@
             this.lbInitialCharge.AutoSize = true;
             this.lbInitialCharge.Location = new System.Drawing.Point(257, 193);
             this.lbInitialCharge.Name = "lbInitialCharge";
-            this.lbInitialCharge.Size = new System.Drawing.Size(13, 13);
+            this.lbInitialCharge.Size = new System.Drawing.Size(111, 13);
             this.lbInitialCharge.TabIndex = 2;
-            this.lbInitialCharge.Text = "0";
+            this.lbInitialCharge.Text = "Initial battery charge : ";
+            // 
+            // btnStop
+            // 
+            this.btnStop.Enabled = false;
+            this.btnStop.Location = new System.Drawing.Point(439, 350);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(158, 61);
+            this.btnStop.TabIndex = 3;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.lbInitialCharge);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lbTitle);
@@ -92,5 +105,6 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label lbTime;
         private System.Windows.Forms.Label lbInitialCharge;
+        private System.Windows.Forms.Button btnStop;
     }
 }

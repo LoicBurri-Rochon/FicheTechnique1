@@ -163,7 +163,7 @@
             // lbGPUName1
             // 
             this.lbGPUName1.AutoSize = true;
-            this.lbGPUName1.Location = new System.Drawing.Point(554, 264);
+            this.lbGPUName1.Location = new System.Drawing.Point(363, 304);
             this.lbGPUName1.Name = "lbGPUName1";
             this.lbGPUName1.Size = new System.Drawing.Size(70, 13);
             this.lbGPUName1.TabIndex = 12;
@@ -172,7 +172,7 @@
             // lbRes
             // 
             this.lbRes.AutoSize = true;
-            this.lbRes.Location = new System.Drawing.Point(363, 313);
+            this.lbRes.Location = new System.Drawing.Point(363, 370);
             this.lbRes.Name = "lbRes";
             this.lbRes.Size = new System.Drawing.Size(94, 13);
             this.lbRes.TabIndex = 13;
@@ -182,7 +182,7 @@
             // 
             this.CURRES.AutoSize = true;
             this.CURRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CURRES.Location = new System.Drawing.Point(80, 304);
+            this.CURRES.Location = new System.Drawing.Point(80, 361);
             this.CURRES.Name = "CURRES";
             this.CURRES.Size = new System.Drawing.Size(193, 26);
             this.CURRES.TabIndex = 14;
@@ -199,11 +199,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(342, 456);
+            this.button1.Location = new System.Drawing.Point(85, 502);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(111, 40);
             this.button1.TabIndex = 16;
-            this.button1.Text = "button1";
+            this.button1.Text = "Battery Tester";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
